@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  post 'tool', to: 'tool#index'
   get 'welcome/index'
 
   root 'welcome#index'
